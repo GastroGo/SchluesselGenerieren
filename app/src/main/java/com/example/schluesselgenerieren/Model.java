@@ -2,7 +2,8 @@ package com.example.schluesselgenerieren;
 
 public class Model {
     private static final String KEY_CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    private static final int KEY_LENGTH = 16;
+    private static final int KEY_LENGTH = 8;
+
 
     public String getKeyCharacters() {
         return KEY_CHARACTERS;
